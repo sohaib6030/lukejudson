@@ -1,0 +1,229 @@
+mat-card {
+    margin: 20px;
+}
+mat-card-actions{
+    margin-bottom: 0 !important;
+}
+
+mat-form-field, mat-select {
+    width: 100%
+}
+
+mat-card-title {
+    font-size: large;
+}
+
+mat-slider {
+    width: 90%;
+}
+
+form {
+    margin: 160px 0 160px 0;
+}
+.top-mar2{
+    z-index: 20;
+    position: fixed;
+    font-size: 30px;
+    top: 100px;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+
+}
+
+.save-btn {
+    background: red;
+    margin: 0px 0px 0 20px;
+    color: white;
+}
+.btns{
+    position: fixed;
+    bottom: 65px;
+    padding: 10px 0 20px 0;
+    background: white !important;
+    width: 100%;
+    margin-bottom: 0;
+}
+.mat-focused {
+    border: 1px solid #d00000;
+}
+/* Border */
+.mat-form-field-appearance-outline .mat-form-field-outline {
+    color:#d00000 !important;
+  }
+  /* Font color */
+  input.mat-input-element {
+    color:#d00000 !important;
+  }mat-card {
+    margin: 20px;
+}
+mat-card-actions{
+    margin-bottom: 0 !important;
+}
+
+mat-form-field, mat-select {
+    width: 100%
+}
+
+mat-card-title {
+    font-size: large;
+}
+
+mat-slider {
+    width: 90%;
+}
+
+form {
+    margin: 160px 0 160px 0;
+}
+.top-mar2{
+    z-index: 20;
+    position: fixed;
+    font-size: 30px;
+    top: 100px;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+
+}
+
+.save-btn {
+    background: red;
+    margin: 0px 0px 0 20px;
+    color: white;
+}
+.btns{
+    position: fixed;
+    bottom: 65px;
+    padding: 10px 0 20px 0;
+    background: white !important;
+    width: 100%;
+    margin-bottom: 0;
+}
+.mat-focused {
+    border: 1px solid #d00000;
+}
+/* Border */
+.mat-form-field-appearance-outline .mat-form-field-outline {
+    color:#d00000 !important;
+  }
+  /* Font color */
+  input.mat-input-element {
+    color:#d00000 !important;
+  }mat-card {
+    margin: 20px;
+}
+mat-card-actions{
+    margin-bottom: 0 !important;
+}
+
+mat-form-field, mat-select {
+    width: 100%
+}
+
+mat-card-title {
+    font-size: large;
+}
+
+mat-slider {
+    width: 90%;
+}
+
+form {
+    margin: 160px 0 160px 0;
+}
+.top-mar2{
+    z-index: 20;
+    position: fixed;
+    font-size: 30px;
+    top: 100px;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+
+}
+
+.save-btn {
+    background: red;
+    margin: 0px 0px 0 20px;
+    color: white;
+}
+.btns{
+    position: fixed;
+    bottom: 65px;
+    padding: 10px 0 20px 0;
+    background: white !important;
+    width: 100%;
+    margin-bottom: 0;
+}
+/* .mat-focused {
+    border: 1px solid #d00000;
+} */
+/* Border */
+/* .mat-form-field-appearance-outline .mat-form-field-outline {
+    color:#d00000 !important;
+  } */
+  /* Font color */
+  /* input.mat-input-element {
+    color:#d00000 !important;
+  } */
+
+  mat-card.mat-profile-img {
+    height: 225px !important;
+}
+mat-card.mat-profile-img picture img{
+    height: 100%;
+    width: 100%;
+    margin: 0 !important;
+}
+.mat-form-field .ng-tns-c8-0 .mat-primary .mat-form-field-type-mat-input .mat-form-field-appearance-legacy .mat-form-field-can-float .mat-form-field-hide-placeholder .ng-star-inserted .mat-form-field-should-float .mat-focused{
+    color:#d00000;
+}
+@media (max-width: 599px){
+.mat-card-image {
+    width: calc(100% + 32px);
+    margin: 0 !important;
+}
+}
+@media screen and (max-width: 768px) {
+    mat-card.mat-profile-img picture img{
+        height: 100%;
+        width: 100%;
+        margin: 0 !important;
+    }
+  }
+  @media screen and (orientation: landscape) {
+    mat-card.mat-profile-img picture img{
+        height: 100%;
+        width: 100%;
+        margin: 0 !important;
+    }
+  }
+  @media screen and (orientation: portrait) {
+    mat-card.mat-profile-img picture img{
+        height: 100%;
+        width: 100%;
+        margin: 0 !important;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    mat-card.mat-profile-img picture img{
+        height: 100%;
+        width: 100%;
+        margin: 0 !important;
+    }
+  }
+  @media screen and (orientation: landscape) {
+    mat-card.mat-profile-img picture img{
+        height: 100%;
+        width: 50%;
+        margin: 0 !important;
+    }
+  }
+  @media screen and (orientation: portrait) {
+    mat-card.mat-profile-img picture img{
+        height: 100%;
+        width: 100%;
+        margin: 0 !important;
+    }
+  }

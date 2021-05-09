@@ -1,0 +1,36 @@
+<mat-card-title class="Pagename">Equipment</mat-card-title>
+<mat-card-title class="searchbar">
+  <input placeholder="Search" type="search" name="Search" (input)="onSearchChange($event.target.value)">
+</mat-card-title>
+<mat-card-content>
+
+
+  <div *ngFor="let equipment_ of listArray">
+    <mat-divider></mat-divider>
+    <a class="anchor-card">
+      <mat-card class="example-card">
+        <mat-card-header>          
+          <div mat-card-avatar class="example-header-image" [ngStyle]="{'background-image': 'url(' + equipment_.imageurl + ')'}"></div>
+          <div class="mat-card-header-text" style="width: 85%;">
+            <mat-card-title>Unit No. : {{ equipment_.unitno }}</mat-card-title>
+            <mat-card-subtitle>Make : {{ equipment_.make }}</mat-card-subtitle>
+            <mat-card-subtitle>Model : {{ equipment_.model }}</mat-card-subtitle>
+            <mat-card-subtitle>Year : {{ equipment_.year }}</mat-card-subtitle>            
+            <mat-card-subtitle>Description : {{ equipment_.description }}</mat-card-subtitle>
+            <mat-card-subtitle>Serial No. : {{ equipment_.serialno }}</mat-card-subtitle>
+          </div>
+          <div *ngIf="equipment_.pdfurl !== ''" _ngcontent-gss-c129="" class="example-button-container" style="align-self: center;">     
+            <button _ngcontent-gss-c129="" mat-mini-fab="" color="warn" aria-label="Example icon button with a cloud_download icon" class="mat-focus-indicator mat-mini-fab mat-button-base mat-warn" (click)="onDownload(equipment_.pdfurl)" style="background: black;"><span class="mat-button-wrapper" style="padding: 0px;"><mat-icon _ngcontent-gss-c129="" role="img" class="mat-icon notranslate material-icons mat-icon-no-color" aria-hidden="true" data-mat-icon-type="font">cloud_download</mat-icon></span><span matripple="" class="mat-ripple mat-button-ripple mat-button-ripple-round"></span><span class="mat-button-focus-overlay"></span></button>
+          </div>  
+        </mat-card-header>
+      </mat-card>
+    </a>
+</div>
+  <mat-divider></mat-divider>
+
+
+
+  <mat-divider class="footercard"></mat-divider>
+</mat-card-content>
+
+<router-outlet></router-outlet>

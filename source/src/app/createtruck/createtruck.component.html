@@ -1,0 +1,66 @@
+<mat-card-title class="top-mar2">
+  New Truck
+</mat-card-title>
+<form>
+  <mat-card>
+
+
+    <div>
+      <mat-card class="mat-profile-img">
+        <picture>
+          <source  srcset="https://www.freepnglogos.com/uploads/truck-png/heavy-truck-27.png">
+          <img mat-card-image src="" alt="Profile image">
+        </picture>
+      </mat-card>
+      <mat-card>
+        <button mat-button color="black">
+          <mat-icon>add</mat-icon>
+          Upload an Image
+        </button>
+      </mat-card>
+
+      <mat-card>
+        <!-- <mat-card-content> -->
+          <!-- <ul> -->
+            <!-- <li *ngFor="let file of files"> -->
+               <!-- <mat-progress-bar [value]="file.progress"></mat-progress-bar>  -->
+               <!-- <span id="file-label">  -->
+              <!-- </span> -->
+            <!-- </li> -->
+          <!-- </ul> -->
+        <!-- </mat-card-content> -->
+    <mat-card-actions>
+      <button mat-button color="black">
+        <mat-icon>add</mat-icon>
+        Upload an PDF
+      </button>
+    </mat-card-actions>
+  </mat-card>
+  <input type="file" #fileInput id="fileUpload" name="fileUpload" multiple="multiple" accept="image/*"style="display:none;" />
+</div>
+
+    <mat-form-field>
+      <input matInput placeholder="Unit No." name="name">
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="Make" name="company name" >
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="Model" name="model name" >
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="Year" name="year">
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="Serial No." name="Serial">
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="License Plate" name="License" >
+    </mat-form-field>
+  </mat-card>
+</form>
+<mat-card-title class="btns">
+  <button mat-raised-button  [routerLink]="['/TruckComponent']">Cancel</button>
+  <button mat-raised-button class="save-btn" >Save</button>
+</mat-card-title>
+

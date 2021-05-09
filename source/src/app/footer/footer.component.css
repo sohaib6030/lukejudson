@@ -1,0 +1,129 @@
+/* .anchor1{
+    text-align: center;
+    width: 20% !important;
+    margin: 0 !important;
+    padding: 0px !important;
+    color: black;
+    font-size: 35px;
+     padding: 0% 9% 0 0%;   
+}
+.anchor2{
+    text-align: center;
+    width: 20% !important;
+    margin: 0 !important;
+    padding: 0px !important;
+    color: black;
+    font-size: 35px;
+    padding: 0% 9% 0 5%;  
+}
+.anchor3{
+    text-align: center;
+    width: 20% !important;
+    margin: 0 !important;
+    padding: 0px !important;
+    color: black;
+    font-size: 35px;
+    padding: 0% 10% 0 4%;  
+}
+.anchor4{
+    text-align: center;
+    width: 20% !important;
+    margin: 0 !important;
+    padding: 0px !important;
+    color: #000;
+    font-size: 35px;
+    padding: 0 8% 0 5%;
+    margin: 0 -2% 0 2%;  
+} 
+mat-card {
+    margin: 0 !important;
+    padding: 0px !important;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background: white;
+    margin: 20px;
+} label {
+    padding: 0 6% 10% 6%;
+} */
+
+mat-icon {
+    font-size: 35px;
+}
+/* 
+.name {
+    margin: 0;
+    padding:0 ;
+    margin-bottom: 10px !important;
+} */
+
+/* .label1 {
+    padding: 0 4% 0% 3%;
+}
+
+.label12 {
+    padding: 0% 3% 0% 4%;
+}
+
+.label3 {
+    padding: 0% 3% 0% 4%;
+}
+
+.label4 {
+    padding: 0% 2% 0% 3%;;
+} */
+/* .parent-mat{
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100%;
+} */
+
+
+.toolbarNav{  
+    text-align: center;
+    position: fixed;
+    bottom: 0; 
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4rem 0 4rem;
+    background-color: white;
+    width: 100%;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+   box-shadow:        2px 2px 4px 5px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+.anchor{
+    text-decoration: none;
+}
+.material-icons.color_blue{
+    margin: 0 1rem 0 1rem;
+    color: black;
+}
+.anchor:hover mat-icon { 
+    color: red;
+  }
+  .anchor:hover mat-card-title { 
+    color: red;
+  }
+  .material-icons.color_blue:active{
+      color: red;
+  }
+  .material-icons.color_blue:focus{
+    color: red;
+}
+.anchortext{
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+}
+a  mat-card-title{
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+}
+.mat-card-subtitle:not(:first-child), .mat-card-title:not(:first-child) {
+    margin-top: -20px;
+    margin-bottom: -10px;
+    margin-left: 8px;
+}

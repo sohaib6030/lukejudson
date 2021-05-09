@@ -1,0 +1,31 @@
+<mat-card-title class="Pagename">Contacts</mat-card-title>
+<mat-card-title class="searchbar">
+  <input placeholder="Search" type="search" name="Search" (input)="onSearchChange($event.target.value)">
+</mat-card-title>
+
+<mat-card-content>
+
+  <div *ngFor="let contact_ of listArray">
+    <mat-divider></mat-divider>
+    <mat-card class="example-card">
+      <mat-card-header>        
+        <div mat-card-avatar class="example-header-image" [ngStyle]="{'background-image': 'url(' + contact_.imageurl + ')'}"></div>
+
+        <div class="mat-card-header-text" style="width: 85%;">
+          <mat-card-title class="pad-top">{{ contact_.companyname }}</mat-card-title>
+          <mat-card-subtitle class="pad-bottom">{{ contact_.number }}</mat-card-subtitle> 
+        </div>
+        <div *ngIf="contact_.pdfurl !== ''" _ngcontent-gss-c129="" class="example-button-container" style="align-self: center;">     
+          <button _ngcontent-gss-c129="" mat-mini-fab="" color="warn" aria-label="Example icon button with a cloud_download icon" class="mat-focus-indicator mat-mini-fab mat-button-base mat-warn" (click)="onDownload(contact_.pdfurl)" style="background: black;"><span class="mat-button-wrapper" style="padding: 0px;"><mat-icon _ngcontent-gss-c129="" role="img" class="mat-icon notranslate material-icons mat-icon-no-color" aria-hidden="true" data-mat-icon-type="font">cloud_download</mat-icon></span><span matripple="" class="mat-ripple mat-button-ripple mat-button-ripple-round"></span><span class="mat-button-focus-overlay"></span></button>
+        </div>   
+
+      </mat-card-header>
+    </mat-card>
+</div>  
+  <mat-divider></mat-divider>
+
+  <mat-divider class="footercard"></mat-divider>
+</mat-card-content>
+
+
+<router-outlet></router-outlet>
