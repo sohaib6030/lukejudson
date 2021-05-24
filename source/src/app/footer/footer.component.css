@@ -86,7 +86,7 @@ mat-icon {
     z-index: 1000;
     display: flex;
     justify-content: space-between;
-    padding: 0 4rem 0 4rem;
+    padding: 0 3% 0 3%;
     background-color: white;
     width: 100%;
   -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
